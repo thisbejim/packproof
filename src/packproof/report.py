@@ -13,7 +13,7 @@ def _payload(report: AuditReport) -> dict[str, Any]:
     by_code = Counter(f.code for f in report.findings)
     return {
         "schema_version": "1",
-        "tool": {"name": "packproof", "version": "0.1.0"},
+        "tool": {"name": "packproof", "version": "0.1.1"},
         "summary": report.summary(),
         "config": dict(report.config),
         "finding_counts": dict(sorted(by_code.items())),
@@ -98,7 +98,7 @@ def render_sarif(report: AuditReport) -> str:
                 "tool": {
                     "driver": {
                         "name": "packproof",
-                        "version": "0.1.0",
+                        "version": "0.1.1",
                         "rules": list(rules.values()),
                     }
                 },

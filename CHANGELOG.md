@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-09-11
+
+- Clarify the tested GitHub-tag installation path in the README.
+
 ## 0.1.0 — 2026-09-11
 
 - Initial release.

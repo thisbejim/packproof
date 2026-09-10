@@ -5,7 +5,7 @@ All structured reports have `schema_version: "1"` and this shape:
 ```json
 {
   "schema_version": "1",
-  "tool": {"name": "packproof", "version": "0.1.0"},
+  "tool": {"name": "packproof", "version": "0.1.1"},
   "summary": {
     "records_checked": 1,
     "lines_read": 1,
