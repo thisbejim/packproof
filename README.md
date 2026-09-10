@@ -19,8 +19,11 @@ service, or copies token payloads into reports.
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install packproof
+python -m pip install "git+https://github.com/thisbejim/packproof.git@v0.1.0"
 ```
+
+The same command can install a downloaded wheel from the
+[`v0.1.0` release](https://github.com/thisbejim/packproof/releases/tag/v0.1.0).
 
 For a checkout with the test tools:
 
